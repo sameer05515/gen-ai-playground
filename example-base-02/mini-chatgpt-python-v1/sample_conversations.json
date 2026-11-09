@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Python learning plan",
+    "create_time": 1731234567,
+    "project": "Learning",
+    "current_node": "m2",
+    "mapping": {
+      "root": {"id": "root", "parent": null, "message": null},
+      "m1": {"id": "m1", "parent": "root", "message": {"id": "m1", "author": {"role": "user"}, "content": {"parts": ["How should I start learning Python?"]}, "create_time": 1731234568}},
+      "m2": {"id": "m2", "parent": "m1", "message": {"id": "m2", "author": {"role": "assistant"}, "content": {"parts": ["Start with variables, data types, conditions, loops, and functions.\n\n```python\nname = 'Prem'\nprint(f'Hello, {name}!')\n```"]}, "create_time": 1731234569}}
+    }
+  }
+]

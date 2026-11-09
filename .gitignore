@@ -1,0 +1,114 @@
+
+# ==========================================
+# Python - Multiple Projects Repository
+# ==========================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+test-results/
+
+# Type checking and linting
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.dmypy.json
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# IDE - VS Code
+.vscode/
+!.vscode/extensions.json
+
+# IDE - PyCharm
+.idea/
+*.iml
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python package managers
+poetry.lock
+Pipfile.lock
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# ML / GenAI generated artifacts
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.gguf
+
+# Model and dataset directories
+models/
+datasets/
+data/raw/
+data/processed/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Docker overrides
+docker-compose.override.yml

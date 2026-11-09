@@ -1,0 +1,6 @@
+streamlit>=1.40,<2
+groq>=0.30,<2
+python-dotenv>=1,<2
+pypdf>=5,<7
+sentence-transformers>=3,<6
+numpy>=1.26,<3
